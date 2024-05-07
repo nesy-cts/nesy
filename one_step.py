@@ -11,9 +11,15 @@ algorithms_schema = [[AgglomerativeClustering(n_clusters=2), AgglomerativeCluste
                      [AgglomerativeClustering(n_clusters=2), AgglomerativeClustering(n_clusters=2)],
                      [AgglomerativeClustering(n_clusters=2), AgglomerativeClustering(n_clusters=2)],
                      [AgglomerativeClustering(n_clusters=2), AgglomerativeClustering(n_clusters=2)],
+                     [AgglomerativeClustering(n_clusters=2), AgglomerativeClustering(n_clusters=2)],
+                     [AgglomerativeClustering(n_clusters=2), AgglomerativeClustering(n_clusters=2)],
+                     [AgglomerativeClustering(n_clusters=2), AgglomerativeClustering(n_clusters=2)],
+                     [AgglomerativeClustering(n_clusters=2), AgglomerativeClustering(n_clusters=2)],
+                     [AgglomerativeClustering(n_clusters=2), AgglomerativeClustering(n_clusters=2)],
                      [AgglomerativeClustering(n_clusters=2), AgglomerativeClustering(n_clusters=2)]
                      ]
-list_is_concerned = [True, False, False, False, False, False, False]
+list_is_concerned = [False, False, False, False, False, False, False, False, False, False, False, False, False,
+                     False, False, False]
 
 nesy1, nesy2 = load_list_nsc(file_names=file_names)
 nesy1.proceed(algorithms_schema=algorithms_schema,
