@@ -1,4 +1,9 @@
 # Nesy
+<script
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+  type="text/javascript">
+</script>
+
 
 ## Synthetic Data
 
@@ -36,3 +41,33 @@ However, there may be a distinct set of categories due to the randomness of real
   - Write a True in the list line 21 at the index of the matching couple.
   - Run one_step.py 
   - Run summary_clustering_state.py to see the state of the clustering.
+
+# Description of the synthetic scenarios
+
+- MC scenario 1 have been designed to mimic the behavior of the logs. 
+There are elements with huge probability to repeat over and over. 
+The opposite goes with other elements, which leads to steady increase 
+in the diagonal of the transition matrix in te next Figure.
+![Not Found](MC_scenario_1_1.png "")
+There are also elements that often appear whatever the last element, 
+and other elements for which it is the opposite. 
+It explains the gradation outside of the diagonal in the next Figure.
+![Not Found](MC_scenario_1_2.png "")
+
+- MC scenario 2 is like MC scenario 1 but with no gradation 
+outside of the diagonal, as it can be seen in the next two Figures.
+![Not Found](MC_scenario_2_1.png "")
+![Not Found](MC_scenario_2_2.png "")
+As a result, the frequencies are less well separated than in 
+MC scenario 1. 
+
+- On the opposite, MC scenario 3 is like 
+MC scenario 1 but with no gradation in the diagonal as it 
+can be seen in the next two Figures. 
+![Not Found](MC_scenario_3_1.png "")
+![Not Found](MC_scenario_3_2.png "")
+Then, the frequencies here are more separated than in MC scenario 1.
+
+Display equation: $\begin{pmatrix} 0.5 & 0.3 & 0.2 \\ 0.1 & 0.6 & 0.3 \\ 0.4 & 0.1 & 0.5 \end{pmatrix}$
+
+$$V_{sphere} = \frac{4}{3}\pi r^3$$
