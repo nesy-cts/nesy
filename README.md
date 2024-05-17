@@ -79,7 +79,7 @@ Then, the frequencies here are more separated than in MC scenario 1.
 - We have the same transition matrix for the underlying markov chain 
 of HMM scenario 1 and HMM scenario 2 :
 
-$$\begin{pmatrix} 0.5 & 0.3 & 0.2 \\ 0.1 & 0.6 & 0.3 \\ 0.4 & 0.1 & 0.5 \end{pmatrix}$$~~
+$$\begin{pmatrix} 0.5 & 0.3 & 0.2 \\ 0.1 & 0.6 & 0.3 \\ 0.4 & 0.1 & 0.5 \end{pmatrix}$$
 
 However, the emission matrices are different and are shown 
 in the next Figures. 
